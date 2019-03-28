@@ -10,7 +10,6 @@
         },
         {
           "title": "Step 2 - Set Google Cloud Credentials [ GKE ]",
-          "courseData": "background.sh",
           "text": "step2.md"
         }
       ],
