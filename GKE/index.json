@@ -1,0 +1,23 @@
+{
+    "title": "GKE",
+    "description": "Google Cloud access",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Installation Gcloud SDK",
+          "text": "step1.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "hideintro": true,
+      "showdashboard": true
+    },
+    "files": ["./kube/config"],
+    "backend": {
+      "imageid": "kubernetes"
+    }
+}
