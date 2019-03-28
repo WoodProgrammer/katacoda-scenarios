@@ -22,7 +22,7 @@
       "showdashboard": true
     },
     "files": ["config"],
-    "target": "/root/.kube",
+    "target": "/root/",
     "backend": {
       "imageid": "kubernetes"
     }
