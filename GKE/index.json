@@ -17,7 +17,7 @@
       "uilayout": "editor-terminal",
       "showdashboard": true
     },
-    "files": ["./kube/config"],
+    "files": [".kube/config"],
     "backend": {
       "imageid": "kubernetes"
     }
