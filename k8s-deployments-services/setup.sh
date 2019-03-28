@@ -1,3 +1,7 @@
+#!/bin/bash
+
+sleep 30
+
 cat > /root/.kube/config <<EOF
 apiVersion: v1
 clusters:
