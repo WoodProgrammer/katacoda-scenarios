@@ -1,0 +1,29 @@
+{
+    "title": "K8S Deployment & Service Objects",
+    "description": "Create deployments on Kubernetes Environment",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Create a Deployment",
+          "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - Create a Service",
+          "text": "step2.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "hideintro": true,
+      "uilayout": "editor-terminal",
+      "showdashboard": true
+    },
+    "files": ["cartsdb-deployment.yml", "cartsdb-service.yml"],
+    "target": "~",
+    "backend": {
+      "imageid": "kubernetes"
+    }
+}
