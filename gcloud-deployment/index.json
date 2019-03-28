@@ -26,6 +26,6 @@
       "uimessage1": "\u001b[32mWelcome to Kubernetes Dojo by kloia!\r\nThis is your Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
-      "imageid": "kubectl"
+      "imageid": "ubuntu"
     }
   }
