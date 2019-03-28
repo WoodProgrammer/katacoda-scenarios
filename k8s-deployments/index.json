@@ -1,0 +1,29 @@
+{
+    "title": "K8S Deployment Objects",
+    "description": "Create deployments on Kubernetes Environment",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Set credentials",
+          "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - Change Kubectl current context for specific namespace",
+          "text": "step2.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "hideintro": true,
+      "uilayout": "editor-terminal",
+      "showdashboard": true
+    },
+    "files": ["config"],
+    "target": "~",
+    "backend": {
+      "imageid": "kubernetes"
+    }
+}
