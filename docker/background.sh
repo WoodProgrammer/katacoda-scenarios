@@ -1,0 +1,1 @@
+echo '<h1>Welcome to the Kubernetes Dojo by kloia!</h1>' > index.html

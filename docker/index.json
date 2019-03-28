@@ -1,0 +1,40 @@
+{
+  "title": "Docker Fundamentals",
+  "description": "Base knowledge for containers and docker",
+  "icon": "fa-docker",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Docker Containers",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Docker Images",
+        "courseData": "background.sh",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Docker Monitoring",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Docker Compose",
+        "text": "step4.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "showdashboard": true,
+    "dashboards": [{"name": "Nginx", "port": 80},{"name": "Sample Shopping App", "port": 8080}],
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mWelcome to Kubernetes Dojo by kloia!\r\nThis is your Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "files": ["Dockerfile","docker-compose.yml"],
+  "backend": {
+    "imageid": "docker"
+  }
+}

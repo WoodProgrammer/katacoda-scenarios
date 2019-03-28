@@ -1,0 +1,23 @@
+{
+  "title": "Application Deployment",
+  "description": "Real-Life Application Deployment on GKE",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Kubectl Configuration for GKE",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mWelcome to Kubernetes Dojo by kloia!\r\nThis is your Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}

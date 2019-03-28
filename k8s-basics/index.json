@@ -1,0 +1,57 @@
+{
+  "title": "Kubernetes Basics",
+  "description": "Understanding Kubernetes Basics",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Kubectl",
+        "text": "step1.md",
+        "answer": "step1-answer.md"
+      },
+      {
+        "title": "Step 2 - Namespaces",
+        "text": "step2.md",
+        "answer": "step2-answer.md"
+      },
+      {
+        "title": "Step 3 - Pods",
+        "text": "step3.md",
+        "answer": "step3-answer.md"
+      },
+      {
+        "title": "Step 4 - Labels",
+        "text": "step4.md",
+        "answer": "step4-answer.md"
+      },
+      {
+        "title": "Step 5 - Health Checks",
+        "text": "step5.md",
+        "answer": "step5-answer.md"
+      },
+      {
+        "title": "Step 6 - Environment Variables",
+        "text": "step6.md",
+        "answer": "step6-answer.md"
+      },
+      {
+        "title": "Step 7 - Compute Resources",
+        "text": "step7.md",
+        "answer": "step7-answer.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "showdashboard": true,
+    "dashboards": [{"name": "Kubernetes Docs", "href": "https://kubernetes.io/docs/home/"}, {"name": "Minikube Docs", "href": "https://kubernetes.io/docs/setup/minikube/"}],
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mWelcome to Kubernetes Dojo by kloia!\r\nThis is your Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "files": ["kloiadojo.yml","nginx.yml","frontend.yml","liveness.yml","envars.yml","resources.yml"],
+  "backend": {
+    "imageid": "minikube"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Kubernetes Advanced",
+  "description": "Understanding Kubernetes in Detail",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Volumes",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Services",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Deployments",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Config Maps",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Secrets",
+        "text": "step5.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "showdashboard": true,
+    "dashboards": [{"name": "Kubernetes Docs", "href": "https://kubernetes.io/docs/home/"}],
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mWelcome to Kubernetes Dojo by kloia!\r\nThis is your Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "files": ["kloiadojo.yml","nginx.yml"],
+  "backend": {
+    "imageid": "minikube"
+  }
+}
