@@ -1,5 +1,5 @@
 GCloud is a toolset for Google Cloud Platform Resources like bigtable, compute engine .. etc 
-In this kata we will install gcloud sdk to the ubuntu .
+In this kata you will set your credentials to the config files and connect to the K8S API Server .
 
 ## Katas
 
@@ -18,9 +18,12 @@ contexts:
 current-context: k8s-dojo
 kind: Config
 preferences: {}
+users:
 - name: admin
   user:
     password: s1aqing4wqeCDyaU
     username: admin
 
 </pre>
+
+Copy and paste to the /root/.kube/config file 
