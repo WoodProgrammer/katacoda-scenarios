@@ -5,15 +5,19 @@
       "steps": [
         {
           "title": "Step 1 - Create a Deployment",
-          "text": "step1.md"
+          "text": "step1.md",
+          "courseData": "setup.sh"
         },
         {
           "title": "Step 2 - Create a Service",
-          "text": "step2.md"
+          "text": "step2.md",
+          "courseData": "setup.sh"
+
         },
         {
           "title": "Step 3 - Create a Sock Shop Application Deployment and Service",
-          "text": "step3.md"
+          "text": "step3.md",
+          "courseData": "setup.sh"
         }
       ],
       "finish": {
