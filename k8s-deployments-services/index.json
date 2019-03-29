@@ -20,6 +20,12 @@
           "courseData": "setup.sh"
         }
       ],
+      "assets": {
+        "master": [
+            {"file": "setup.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
+      },
+
       "finish": {
         "text": "finish.md"
       }
